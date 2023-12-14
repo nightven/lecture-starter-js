@@ -24,7 +24,6 @@ class FighterService {
         }
     }
 }
-
 const fighterService = new FighterService();
 
 export default fighterService;

@@ -1,9 +1,11 @@
+/* eslint-disable no-restricted-globals */
 import createElement from '../../helpers/domHelper';
 import { createFighterImage } from '../fighterPreview';
 import showModal from './modal';
 
 export default function showWinnerModal(fighter) {
     // call showModal function
+
     const bodyElement = createElement({ tagName: 'div', className: 'modal-winner' });
 
     const fighterImage = createFighterImage(fighter);

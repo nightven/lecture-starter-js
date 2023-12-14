@@ -15,7 +15,6 @@ export function createFighterImage(fighter) {
 
     return imgElement;
 }
-
 export function createFighterPreview(fighter, position) {
     const positionClassName = position === 'right' ? 'fighter-preview___right' : 'fighter-preview___left';
     const fighterElement = createElement({
